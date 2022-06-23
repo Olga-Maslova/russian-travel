@@ -7,3 +7,9 @@
   display: grid;
   gap: 80px;
 }
+
+@media screen and (max-width: 767px) {
+  .places__items {
+    gap: 50px;
+  }
+}
